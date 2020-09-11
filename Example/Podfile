@@ -2,5 +2,6 @@ use_frameworks!
 target 'TestMyPod_Tests' do
   pod 'TestMyPod', :path => '../'
   
+  pod 'Starscream', '~> 4.0.0'
   
 end
